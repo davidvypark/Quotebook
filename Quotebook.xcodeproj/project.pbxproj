@@ -35,6 +35,7 @@
 		FF4A7B4F1D870F4200AF5D30 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B471D870F4200AF5D30 /* StringExtension.swift */; };
 		FF4A7B501D870F4200AF5D30 /* String+BoldString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B481D870F4200AF5D30 /* String+BoldString.swift */; };
 		FF4A7B511D870F4200AF5D30 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B491D870F4200AF5D30 /* UILabelExtension.swift */; };
+		FF4A7B531D87437C00AF5D30 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B521D87437C00AF5D30 /* DiscoverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		FF4A7B471D870F4200AF5D30 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		FF4A7B481D870F4200AF5D30 /* String+BoldString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+BoldString.swift"; sourceTree = "<group>"; };
 		FF4A7B491D870F4200AF5D30 /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		FF4A7B521D87437C00AF5D30 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				FF4A7B261D870F1D00AF5D30 /* VerifySMSViewController.swift */,
 				FF4A7B271D870F1D00AF5D30 /* PageMenuVIewController.swift */,
 				FF4A7B281D870F1D00AF5D30 /* HomeViewController.swift */,
+				FF4A7B521D87437C00AF5D30 /* DiscoverViewController.swift */,
 				FF4A7B291D870F1D00AF5D30 /* AddQuoteViewController.swift */,
 				FF4A7B2A1D870F1D00AF5D30 /* ProfileViewController.swift */,
 				FF4A7B2B1D870F1D00AF5D30 /* ProfileHeaderCell.swift */,
@@ -335,6 +338,7 @@
 				FF4A7B201D870F0E00AF5D30 /* Constants.swift in Sources */,
 				FF4A7B4F1D870F4200AF5D30 /* StringExtension.swift in Sources */,
 				FF4A7B371D870F1D00AF5D30 /* AddQuoteViewController.swift in Sources */,
+				FF4A7B531D87437C00AF5D30 /* DiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

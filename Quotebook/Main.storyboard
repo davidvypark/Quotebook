@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Page Menu View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="PageMenuViewController" customModule="Quotebook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="pageMenu" id="BYZ-38-t0r" customClass="PageMenuViewController" customModule="Quotebook" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,12 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Db2-wl-JEc"/>
                     <navigationItem key="navigationItem" id="cz5-s9-5PS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-686" y="-781"/>
+            <point key="canvasLocation" x="126" y="-781"/>
         </scene>
         <!--Entry View Controller-->
         <scene sceneID="pXb-0U-pxL">
@@ -89,7 +88,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ill-A8-Vcd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1015" y="-557"/>
+            <point key="canvasLocation" x="1827" y="-557"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="cjs-kW-CWv">
@@ -146,7 +145,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YNU-tg-7qQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="203" y="-557"/>
+            <point key="canvasLocation" x="1015" y="-557"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="A34-KP-TpL">
+            <objects>
+                <navigationController storyboardIdentifier="mainNav" automaticallyAdjustsScrollViewInsets="NO" id="5fj-fm-0hd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Db2-wl-JEc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kAI-mJ-cxA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="5Ld-B9-5CR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Fq-Tp-yt9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-686" y="-781"/>
         </scene>
     </scenes>
 </document>
