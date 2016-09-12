@@ -8,7 +8,7 @@
         <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="PageMenuViewController" customModule="Quotes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PageMenuViewController" customModule="Quotebook" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-686" y="-781"/>
         </scene>
-        <!--Login View Controller-->
+        <!--Entry View Controller-->
         <scene sceneID="pXb-0U-pxL">
             <objects>
-                <viewController storyboardIdentifier="LoginVC" id="BcA-aa-VSX" customClass="LoginViewController" customModule="Quotes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVC" id="BcA-aa-VSX" customClass="EntryViewController" customModule="Quotebook" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WAg-Jx-huP"/>
                         <viewControllerLayoutGuide type="bottom" id="Evx-5w-mFj"/>
@@ -46,7 +46,7 @@
         <!--Item 2-->
         <scene sceneID="ECv-cJ-lxX">
             <objects>
-                <viewController id="LBQ-ZS-ppn" customClass="ProfileViewController" customModule="Quotes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LBQ-ZS-ppn" customClass="ProfileViewController" customModule="Quotebook" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hXM-RJ-iuE"/>
                         <viewControllerLayoutGuide type="bottom" id="bxd-Xh-4j2"/>
@@ -65,7 +65,7 @@
         <!--Home View Controller-->
         <scene sceneID="6ws-Zm-S03">
             <objects>
-                <tableViewController id="IyH-Y0-2c2" customClass="HomeViewController" customModule="Quotes" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="IyH-Y0-2c2" customClass="HomeViewController" customModule="Quotebook" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Vjv-fJ-wSq">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,7 +94,7 @@
         <!--Item 1-->
         <scene sceneID="cjs-kW-CWv">
             <objects>
-                <viewController id="fjg-i9-J7U" customClass="AddQuoteViewController" customModule="Quotes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fjg-i9-J7U" customClass="AddQuoteViewController" customModule="Quotebook" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hKa-fM-ipQ"/>
                         <viewControllerLayoutGuide type="bottom" id="vJ0-un-2B1"/>
@@ -113,7 +113,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="3tp-hy-o2L">
             <objects>
-                <tabBarController storyboardIdentifier="tabBar" id="iL4-7U-7S5" customClass="TabBarController" customModule="Quotes" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabBar" id="iL4-7U-7S5" customClass="TabBarController" customModule="Quotebook" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="jHi-26-0FK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

@@ -10,10 +10,9 @@ import Foundation
 import UIKit
 
 struct Constants {
-	
-	//static let headerFont = "HelveticaNeue-Bold"
-	static let headerFont = "Arial-BoldMT"
-	static let basicFont = "ArialMT"
+
+	static let headerFont = "AvenirNext-Medium"
+	static let font = "AvenirNext-Regular"
 	static let textColor = UIColor.wetAsphaltColor()
 	
 }

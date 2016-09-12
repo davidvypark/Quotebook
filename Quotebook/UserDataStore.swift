@@ -8,8 +8,6 @@
 
 import Foundation
 import UIKit
-import Firebase
-import FirebaseDatabase
 import AddressBook
 import Contacts
 
@@ -27,19 +25,19 @@ class UserDataStore {
 	var userDataDict = Dictionary<String, AnyObject>()
 	var userContacts = [String: String]()
 	
-	var quoteRef = FIRDatabase.database().reference().child("QuoteQuote")
-	var userRef = FIRDatabase.database().reference().child("QuoteUser")
+//	var quoteRef = FIRDatabase.database().reference().child("QuoteQuote")
+//	var userRef = FIRDatabase.database().reference().child("QuoteUser")
 	
 	func fetchValidPhoneNumbers() {
-		
-		print ("fetching validPhoneNumber")
-		validPhoneNumbers.removeAll()
-		userRef.observeEventType(.ChildAdded, withBlock: { (snapshot) in
-			self.validPhoneNumbers.append(snapshot.key)
-			self.userDataDict[snapshot.key] = snapshot.value
-			print (self.userDataDict)
-			print (self.validPhoneNumbers)
-		})
+//		
+//		print ("fetching validPhoneNumber")
+//		validPhoneNumbers.removeAll()
+//		userRef.observeEventType(.ChildAdded, withBlock: { (snapshot) in
+//			self.validPhoneNumbers.append(snapshot.key)
+//			self.userDataDict[snapshot.key] = snapshot.value
+//			print (self.userDataDict)
+//			print (self.validPhoneNumbers)
+//		})
 	}
 	
 	func fetchContacts() {

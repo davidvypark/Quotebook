@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94399CB2326C5CE8EE31C026 /* Pods_Quotebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F047D6BA79F76895343E5D7E /* Pods_Quotebook.framework */; };
 		FF4A7B101D870EC600AF5D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4A7B0F1D870EC600AF5D30 /* Assets.xcassets */; };
 		FF4A7B131D870EC600AF5D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4A7B111D870EC600AF5D30 /* LaunchScreen.storyboard */; };
 		FF4A7B1F1D870F0E00AF5D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B1A1D870F0E00AF5D30 /* AppDelegate.swift */; };
@@ -14,8 +15,7 @@
 		FF4A7B211D870F0E00AF5D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4A7B1C1D870F0E00AF5D30 /* Main.storyboard */; };
 		FF4A7B221D870F0E00AF5D30 /* UserDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B1D1D870F0E00AF5D30 /* UserDataStore.swift */; };
 		FF4A7B231D870F0E00AF5D30 /* QuotesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B1E1D870F0E00AF5D30 /* QuotesAPI.swift */; };
-		FF4A7B321D870F1D00AF5D30 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B241D870F1D00AF5D30 /* TabBarController.swift */; };
-		FF4A7B331D870F1D00AF5D30 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B251D870F1D00AF5D30 /* LoginViewController.swift */; };
+		FF4A7B331D870F1D00AF5D30 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B251D870F1D00AF5D30 /* EntryViewController.swift */; };
 		FF4A7B341D870F1D00AF5D30 /* VerifySMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B261D870F1D00AF5D30 /* VerifySMSViewController.swift */; };
 		FF4A7B351D870F1D00AF5D30 /* PageMenuVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B271D870F1D00AF5D30 /* PageMenuVIewController.swift */; };
 		FF4A7B361D870F1D00AF5D30 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B281D870F1D00AF5D30 /* HomeViewController.swift */; };
@@ -38,6 +38,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		194A54B0610CD0042BFF0F00 /* Pods-Quotebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quotebook/Pods-Quotebook.release.xcconfig"; sourceTree = "<group>"; };
+		8231C6D80AFBFE3587FCC2CF /* Pods-Quotebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quotebook/Pods-Quotebook.debug.xcconfig"; sourceTree = "<group>"; };
+		F047D6BA79F76895343E5D7E /* Pods_Quotebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quotebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4A7B051D870EC600AF5D30 /* Quotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4A7B0F1D870EC600AF5D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF4A7B121D870EC600AF5D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,8 +50,7 @@
 		FF4A7B1C1D870F0E00AF5D30 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FF4A7B1D1D870F0E00AF5D30 /* UserDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataStore.swift; sourceTree = "<group>"; };
 		FF4A7B1E1D870F0E00AF5D30 /* QuotesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesAPI.swift; sourceTree = "<group>"; };
-		FF4A7B241D870F1D00AF5D30 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		FF4A7B251D870F1D00AF5D30 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FF4A7B251D870F1D00AF5D30 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		FF4A7B261D870F1D00AF5D30 /* VerifySMSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifySMSViewController.swift; sourceTree = "<group>"; };
 		FF4A7B271D870F1D00AF5D30 /* PageMenuVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageMenuVIewController.swift; sourceTree = "<group>"; };
 		FF4A7B281D870F1D00AF5D30 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -75,17 +77,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94399CB2326C5CE8EE31C026 /* Pods_Quotebook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE6267DCEC17BAAA1015FEE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F047D6BA79F76895343E5D7E /* Pods_Quotebook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5B8EAD46679B21698CA7E85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8231C6D80AFBFE3587FCC2CF /* Pods-Quotebook.debug.xcconfig */,
+				194A54B0610CD0042BFF0F00 /* Pods-Quotebook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FF4A7AFC1D870EC600AF5D30 = {
 			isa = PBXGroup;
 			children = (
 				FF4A7B071D870EC600AF5D30 /* Quotebook */,
 				FF4A7B061D870EC600AF5D30 /* Products */,
+				E5B8EAD46679B21698CA7E85 /* Pods */,
+				AE6267DCEC17BAAA1015FEE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,8 +149,7 @@
 		FF4A7B311D870F1D00AF5D30 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FF4A7B241D870F1D00AF5D30 /* TabBarController.swift */,
-				FF4A7B251D870F1D00AF5D30 /* LoginViewController.swift */,
+				FF4A7B251D870F1D00AF5D30 /* EntryViewController.swift */,
 				FF4A7B261D870F1D00AF5D30 /* VerifySMSViewController.swift */,
 				FF4A7B271D870F1D00AF5D30 /* PageMenuVIewController.swift */,
 				FF4A7B281D870F1D00AF5D30 /* HomeViewController.swift */,
@@ -175,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF4A7B171D870EC600AF5D30 /* Build configuration list for PBXNativeTarget "Quotebook" */;
 			buildPhases = (
+				1C5E02762A02658AF848E1B6 /* [CP] Check Pods Manifest.lock */,
 				FF4A7B011D870EC600AF5D30 /* Sources */,
 				FF4A7B021D870EC600AF5D30 /* Frameworks */,
 				FF4A7B031D870EC600AF5D30 /* Resources */,
+				C2895630A06A1534A6BBFE5D /* [CP] Embed Pods Frameworks */,
+				D441E9A1533D39F4EDC6155A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +258,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C5E02762A02658AF848E1B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2895630A06A1534A6BBFE5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quotebook/Pods-Quotebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D441E9A1533D39F4EDC6155A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quotebook/Pods-Quotebook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF4A7B011D870EC600AF5D30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -244,7 +316,7 @@
 				FF4A7B351D870F1D00AF5D30 /* PageMenuVIewController.swift in Sources */,
 				FF4A7B4C1D870F4200AF5D30 /* UIImageExtension.swift in Sources */,
 				FF4A7B3A1D870F1D00AF5D30 /* ReviewViewController.swift in Sources */,
-				FF4A7B331D870F1D00AF5D30 /* LoginViewController.swift in Sources */,
+				FF4A7B331D870F1D00AF5D30 /* EntryViewController.swift in Sources */,
 				FF4A7B3B1D870F1D00AF5D30 /* QuoteTableViewCell.swift in Sources */,
 				FF4A7B4B1D870F4200AF5D30 /* UIColorExtensions.swift in Sources */,
 				FF4A7B4E1D870F4200AF5D30 /* NSDateExtension.swift in Sources */,
@@ -259,7 +331,6 @@
 				FF4A7B511D870F4200AF5D30 /* UILabelExtension.swift in Sources */,
 				FF4A7B381D870F1D00AF5D30 /* ProfileViewController.swift in Sources */,
 				FF4A7B1F1D870F0E00AF5D30 /* AppDelegate.swift in Sources */,
-				FF4A7B321D870F1D00AF5D30 /* TabBarController.swift in Sources */,
 				FF4A7B4D1D870F4200AF5D30 /* UIViewExtension.swift in Sources */,
 				FF4A7B201D870F0E00AF5D30 /* Constants.swift in Sources */,
 				FF4A7B4F1D870F4200AF5D30 /* StringExtension.swift in Sources */,
@@ -368,6 +439,7 @@
 		};
 		FF4A7B181D870EC600AF5D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8231C6D80AFBFE3587FCC2CF /* Pods-Quotebook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -381,6 +453,7 @@
 		};
 		FF4A7B191D870EC600AF5D30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194A54B0610CD0042BFF0F00 /* Pods-Quotebook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -410,6 +483,7 @@
 				FF4A7B191D870EC600AF5D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
