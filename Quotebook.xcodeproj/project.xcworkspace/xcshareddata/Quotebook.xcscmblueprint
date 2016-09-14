@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "55D54E88B7BC6BB21474FF3EDE74286D304C8D37",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "55D54E88B7BC6BB21474FF3EDE74286D304C8D37" : 0,
+    "FA77B8322BA842F670C625B3EFF31C1C76ACB80A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CE5026E2-D417-464F-B6D3-70B6B208A4C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "55D54E88B7BC6BB21474FF3EDE74286D304C8D37" : "Quotebook\/",
+    "FA77B8322BA842F670C625B3EFF31C1C76ACB80A" : "Quotes\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Quotebook",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Quotebook.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:davidvypark\/Quotebook.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55D54E88B7BC6BB21474FF3EDE74286D304C8D37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:davidvypark\/Quotes.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FA77B8322BA842F670C625B3EFF31C1C76ACB80A"
+    }
+  ]
+}
