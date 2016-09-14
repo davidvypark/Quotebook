@@ -15,6 +15,7 @@
 		FF21689B1D88D75800CF09AC /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF21689A1D88D75800CF09AC /* DiscoverViewController.swift */; };
 		FF21689D1D88D97100CF09AC /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF21689C1D88D97100CF09AC /* QuoteTableViewCell.swift */; };
 		FF2168A01D88DF7500CF09AC /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF21689F1D88DF7500CF09AC /* UIImageExtension.swift */; };
+		FF2168A21D88E68C00CF09AC /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2168A11D88E68C00CF09AC /* Secrets.swift */; };
 		FF4A7B101D870EC600AF5D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4A7B0F1D870EC600AF5D30 /* Assets.xcassets */; };
 		FF4A7B131D870EC600AF5D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4A7B111D870EC600AF5D30 /* LaunchScreen.storyboard */; };
 		FF4A7B1F1D870F0E00AF5D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B1A1D870F0E00AF5D30 /* AppDelegate.swift */; };
@@ -35,6 +36,7 @@
 		FF21689A1D88D75800CF09AC /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		FF21689C1D88D97100CF09AC /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
 		FF21689F1D88DF7500CF09AC /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		FF2168A11D88E68C00CF09AC /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		FF4A7B051D870EC600AF5D30 /* Quotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4A7B0F1D870EC600AF5D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF4A7B121D870EC600AF5D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		FF4A7B071D870EC600AF5D30 /* Quotebook */ = {
 			isa = PBXGroup;
 			children = (
+				FF2168A11D88E68C00CF09AC /* Secrets.swift */,
 				FF4A7B1A1D870F0E00AF5D30 /* AppDelegate.swift */,
 				FF4A7B1B1D870F0E00AF5D30 /* Constants.swift */,
 				FF4A7B1C1D870F0E00AF5D30 /* Main.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF21689B1D88D75800CF09AC /* DiscoverViewController.swift in Sources */,
+				FF2168A21D88E68C00CF09AC /* Secrets.swift in Sources */,
 				FF4A7B221D870F0E00AF5D30 /* UserDataStore.swift in Sources */,
 				FF21688E1D88CCA300CF09AC /* EntryViewController.swift in Sources */,
 				FF4A7B231D870F0E00AF5D30 /* QuotesAPI.swift in Sources */,
