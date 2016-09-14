@@ -10,6 +10,10 @@
 		94399CB2326C5CE8EE31C026 /* Pods_Quotebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F047D6BA79F76895343E5D7E /* Pods_Quotebook.framework */; };
 		FF21688E1D88CCA300CF09AC /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF21688D1D88CCA300CF09AC /* EntryViewController.swift */; };
 		FF2168921D88CE6900CF09AC /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2168911D88CE6900CF09AC /* UIColorExtensions.swift */; };
+		FF2168951D88D67700CF09AC /* PageMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2168941D88D67700CF09AC /* PageMenuViewController.swift */; };
+		FF2168991D88D73200CF09AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2168981D88D73200CF09AC /* HomeViewController.swift */; };
+		FF21689B1D88D75800CF09AC /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF21689A1D88D75800CF09AC /* DiscoverViewController.swift */; };
+		FF21689D1D88D97100CF09AC /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF21689C1D88D97100CF09AC /* QuoteTableViewCell.swift */; };
 		FF4A7B101D870EC600AF5D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4A7B0F1D870EC600AF5D30 /* Assets.xcassets */; };
 		FF4A7B131D870EC600AF5D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4A7B111D870EC600AF5D30 /* LaunchScreen.storyboard */; };
 		FF4A7B1F1D870F0E00AF5D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B1A1D870F0E00AF5D30 /* AppDelegate.swift */; };
@@ -25,6 +29,10 @@
 		F047D6BA79F76895343E5D7E /* Pods_Quotebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quotebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF21688D1D88CCA300CF09AC /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryViewController.swift; path = Quotebook/EntryViewController.swift; sourceTree = SOURCE_ROOT; };
 		FF2168911D88CE6900CF09AC /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		FF2168941D88D67700CF09AC /* PageMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageMenuViewController.swift; path = Quotebook/PageMenuViewController.swift; sourceTree = SOURCE_ROOT; };
+		FF2168981D88D73200CF09AC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FF21689A1D88D75800CF09AC /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		FF21689C1D88D97100CF09AC /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
 		FF4A7B051D870EC600AF5D30 /* Quotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4A7B0F1D870EC600AF5D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF4A7B121D870EC600AF5D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,12 +73,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FF2168931D88CE8000CF09AC /* Extensions */ = {
+		FF2168961D88D6FE00CF09AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF21688D1D88CCA300CF09AC /* EntryViewController.swift */,
+				FF2168941D88D67700CF09AC /* PageMenuViewController.swift */,
+				FF2168981D88D73200CF09AC /* HomeViewController.swift */,
+				FF21689A1D88D75800CF09AC /* DiscoverViewController.swift */,
+				FF21689E1D88D97F00CF09AC /* ReusableViews */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FF2168971D88D71B00CF09AC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				FF2168911D88CE6900CF09AC /* UIColorExtensions.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		FF21689E1D88D97F00CF09AC /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				FF21689C1D88D97100CF09AC /* QuoteTableViewCell.swift */,
+			);
+			name = ReusableViews;
 			sourceTree = "<group>";
 		};
 		FF4A7AFC1D870EC600AF5D30 = {
@@ -99,31 +127,13 @@
 				FF4A7B1C1D870F0E00AF5D30 /* Main.storyboard */,
 				FF4A7B1D1D870F0E00AF5D30 /* UserDataStore.swift */,
 				FF4A7B1E1D870F0E00AF5D30 /* QuotesAPI.swift */,
-				FF4A7B311D870F1D00AF5D30 /* Views */,
-				FF4A7B401D870F2300AF5D30 /* Models */,
-				FF2168931D88CE8000CF09AC /* Extensions */,
+				FF2168961D88D6FE00CF09AC /* Views */,
+				FF2168971D88D71B00CF09AC /* Extensions */,
 				FF4A7B0F1D870EC600AF5D30 /* Assets.xcassets */,
 				FF4A7B111D870EC600AF5D30 /* LaunchScreen.storyboard */,
 				FF4A7B141D870EC600AF5D30 /* Info.plist */,
 			);
 			path = Quotebook;
-			sourceTree = "<group>";
-		};
-		FF4A7B311D870F1D00AF5D30 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				FF21688D1D88CCA300CF09AC /* EntryViewController.swift */,
-			);
-			name = Views;
-			path = ../../Quotes/Quotes;
-			sourceTree = "<group>";
-		};
-		FF4A7B401D870F2300AF5D30 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Models;
-			path = ../../Quotes/Quotes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,11 +258,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF21689B1D88D75800CF09AC /* DiscoverViewController.swift in Sources */,
 				FF4A7B221D870F0E00AF5D30 /* UserDataStore.swift in Sources */,
 				FF21688E1D88CCA300CF09AC /* EntryViewController.swift in Sources */,
 				FF4A7B231D870F0E00AF5D30 /* QuotesAPI.swift in Sources */,
+				FF21689D1D88D97100CF09AC /* QuoteTableViewCell.swift in Sources */,
+				FF2168991D88D73200CF09AC /* HomeViewController.swift in Sources */,
 				FF2168921D88CE6900CF09AC /* UIColorExtensions.swift in Sources */,
 				FF4A7B1F1D870F0E00AF5D30 /* AppDelegate.swift in Sources */,
+				FF2168951D88D67700CF09AC /* PageMenuViewController.swift in Sources */,
 				FF4A7B201D870F0E00AF5D30 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
