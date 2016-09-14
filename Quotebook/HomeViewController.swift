@@ -13,6 +13,12 @@ class HomeViewController: UITableViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		tableView.registerClass(QuoteTableViewCell.self, forCellReuseIdentifier: QuoteTableViewCell.cellIdentifier)
+		
+		tableView.separatorStyle = .None
+		tableView.rowHeight = UITableViewAutomaticDimension
+		tableView.estimatedRowHeight = view.frame.height / 4
+		
 		setupScene()
 	}
 	
@@ -22,7 +28,9 @@ class HomeViewController: UITableViewController {
 	
 	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 		
-		let cell = tableView.dequeueReusableCellWithIdentifier("quoteCell", forIndexPath: indexPath)
+		let cell = tableView.dequeueReusableCellWithIdentifier("quoteCell", forIndexPath: indexPath) as! QuoteTableViewCell
+		
+		cell.layoutIfNeeded()
 		
 		return cell
 	}
