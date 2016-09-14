@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		94399CB2326C5CE8EE31C026 /* Pods_Quotebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F047D6BA79F76895343E5D7E /* Pods_Quotebook.framework */; };
+		FF21688E1D88CCA300CF09AC /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF21688D1D88CCA300CF09AC /* EntryViewController.swift */; };
+		FF2168921D88CE6900CF09AC /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2168911D88CE6900CF09AC /* UIColorExtensions.swift */; };
 		FF4A7B101D870EC600AF5D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4A7B0F1D870EC600AF5D30 /* Assets.xcassets */; };
 		FF4A7B131D870EC600AF5D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4A7B111D870EC600AF5D30 /* LaunchScreen.storyboard */; };
 		FF4A7B1F1D870F0E00AF5D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A7B1A1D870F0E00AF5D30 /* AppDelegate.swift */; };
@@ -21,6 +23,8 @@
 		194A54B0610CD0042BFF0F00 /* Pods-Quotebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quotebook/Pods-Quotebook.release.xcconfig"; sourceTree = "<group>"; };
 		8231C6D80AFBFE3587FCC2CF /* Pods-Quotebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quotebook/Pods-Quotebook.debug.xcconfig"; sourceTree = "<group>"; };
 		F047D6BA79F76895343E5D7E /* Pods_Quotebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quotebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF21688D1D88CCA300CF09AC /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryViewController.swift; path = Quotebook/EntryViewController.swift; sourceTree = SOURCE_ROOT; };
+		FF2168911D88CE6900CF09AC /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		FF4A7B051D870EC600AF5D30 /* Quotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4A7B0F1D870EC600AF5D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF4A7B121D870EC600AF5D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +65,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FF2168931D88CE8000CF09AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF2168911D88CE6900CF09AC /* UIColorExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		FF4A7AFC1D870EC600AF5D30 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +101,7 @@
 				FF4A7B1E1D870F0E00AF5D30 /* QuotesAPI.swift */,
 				FF4A7B311D870F1D00AF5D30 /* Views */,
 				FF4A7B401D870F2300AF5D30 /* Models */,
+				FF2168931D88CE8000CF09AC /* Extensions */,
 				FF4A7B0F1D870EC600AF5D30 /* Assets.xcassets */,
 				FF4A7B111D870EC600AF5D30 /* LaunchScreen.storyboard */,
 				FF4A7B141D870EC600AF5D30 /* Info.plist */,
@@ -99,6 +112,7 @@
 		FF4A7B311D870F1D00AF5D30 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FF21688D1D88CCA300CF09AC /* EntryViewController.swift */,
 			);
 			name = Views;
 			path = ../../Quotes/Quotes;
@@ -235,7 +249,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF4A7B221D870F0E00AF5D30 /* UserDataStore.swift in Sources */,
+				FF21688E1D88CCA300CF09AC /* EntryViewController.swift in Sources */,
 				FF4A7B231D870F0E00AF5D30 /* QuotesAPI.swift in Sources */,
+				FF2168921D88CE6900CF09AC /* UIColorExtensions.swift in Sources */,
 				FF4A7B1F1D870F0E00AF5D30 /* AppDelegate.swift in Sources */,
 				FF4A7B201D870F0E00AF5D30 /* Constants.swift in Sources */,
 			);
